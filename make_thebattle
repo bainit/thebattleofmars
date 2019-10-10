@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -rf thebattle
+
+gcc -g -std=gnu99 color.c menu.c map.c cursor.c player.c unit.c util.c vector.c info_screen.c game.c terminal.c main.c thebattle.c ai.c weapon.c -o thebattle -lm
